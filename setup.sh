@@ -41,3 +41,10 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Configure git
+git config --global user.name "Berliner1985"
+git config --global user.email "cbrieger@brieger.biz"
+
+# Install Heroku
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
