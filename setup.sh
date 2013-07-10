@@ -48,3 +48,7 @@ git config --global user.email "cbrieger@brieger.biz"
 # Install Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+# Install Cheerio and Commander
+npm install cheerio
+npm install commander
+
